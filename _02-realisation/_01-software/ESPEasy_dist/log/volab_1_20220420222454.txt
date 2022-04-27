@@ -1,0 +1,74 @@
+######2022-04-20######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: ESPEasy_2step_UploaderMega_1024.bin
+COM port: (COM7) USB-SERIAL CH340 (Port_#0003.Hub_#0002)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM7 -ca 0x00000 -cf "C:\Users\jojo\Documents\jojoBag\perso\tmp\jeedom\ESPEasy_dist\bin\ESPEasy_2step_UploaderMega_1024.bin"]
+[20/04/2022 22:24:57] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[20/04/2022 22:24:57] 	setting board to nodemcu
+[20/04/2022 22:24:57] 	setting baudrate from 115200 to 115200
+[20/04/2022 22:24:57] 	setting port from  to COM7
+[20/04/2022 22:24:57] 	setting address from 0x00000000 to 0x00000000
+[20/04/2022 22:24:57] 	espcomm_upload_file
+[20/04/2022 22:24:57] 	espcomm_upload_mem
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1000 ms
+[20/04/2022 22:24:57] opening bootloader
+[20/04/2022 22:24:57] resetting board
+[20/04/2022 22:24:57] trying to connect
+[20/04/2022 22:24:57] 	flush start
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1 ms
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1000 ms
+[20/04/2022 22:24:57] 	flush complete
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command header
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command payload
+[20/04/2022 22:24:57] 	read 0, requested 1
+[20/04/2022 22:24:57] trying to connect
+[20/04/2022 22:24:57] 	flush start
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1 ms
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1000 ms
+[20/04/2022 22:24:57] 	flush complete
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command header
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command payload
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] Uploading 276848 bytes from C:\Users\jojo\Documents\jojoBag\perso\tmp\jeedom\ESPEasy_dist\bin\ESPEasy_2step_UploaderMega_1024.bin to flash at 0x00000000
+[20/04/2022 22:24:57] 	erasing flash
+[20/04/2022 22:24:57] 	size: 043970 address: 000000
+[20/04/2022 22:24:57] 	first_sector_index: 0
+[20/04/2022 22:24:57] 	total_sector_count: 68
+[20/04/2022 22:24:57] 	head_sector_count: 16
+[20/04/2022 22:24:57] 	adjusted_sector_count: 52
+[20/04/2022 22:24:57] 	erase_size: 034000
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command header
+[20/04/2022 22:24:57] 	espcomm_send_command: sending command payload
+[20/04/2022 22:24:57] 	setting serial port timeouts to 15000 ms
+[20/04/2022 22:24:57] 	setting serial port timeouts to 1000 ms
+[20/04/2022 22:24:57] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:24:57] 	writing flash
+[20/04/2022 22:25:06] ................................................................................ [ 29% ]
+[20/04/2022 22:25:14] ................................................................................ [ 59% ]
+[20/04/2022 22:25:23] ................................................................................ [ 88% ]
+[20/04/2022 22:25:26] ...............................                                                  [ 100% ]
+[20/04/2022 22:25:26] starting app without reboot
+[20/04/2022 22:25:26] 	espcomm_send_command: sending command header
+[20/04/2022 22:25:26] 	espcomm_send_command: sending command payload
+[20/04/2022 22:25:26] 	espcomm_send_command: receiving 2 bytes of data
+[20/04/2022 22:25:26] closing bootloader
+[20/04/2022 22:25:26] 	flush start
+[20/04/2022 22:25:26] 	setting serial port timeouts to 1 ms
+[20/04/2022 22:25:26] 	setting serial port timeouts to 1000 ms
+[20/04/2022 22:25:26] 	flush complete
+[2022-04-20 22:25:26] DONE!
+############################
+[2022-04-20 22:25:26] The COM port was already in use... the post-flash did not complete.
+[2022-04-20 22:25:26] JOB COMPLETED, over and out!
